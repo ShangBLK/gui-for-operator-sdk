@@ -9,3 +9,8 @@ The Operator SDK is a framework that uses the controller-runtime library to make
 3. Extensions to cover common Operator use cases
 
 Build your own operator: https://sdk.operatorframework.io/build/
+
+
+The goal of this project is to create a Dynamic GUI based on an Ansible CRD
+
+Further info: https://cloud.redhat.com/blog/openshift-4-2-declarative-dynamic-ui-for-your-operator
