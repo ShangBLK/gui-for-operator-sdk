@@ -14,3 +14,7 @@ Build your own operator: https://sdk.operatorframework.io/build/
 The goal of this project is to create a Dynamic GUI based on an Ansible CRD
 
 Further info: https://cloud.redhat.com/blog/openshift-4-2-declarative-dynamic-ui-for-your-operator
+
+# Autocreate APIs by Using Your Connected Apps Credentials
+
+Link: https://docs.mulesoft.com/service-mesh/1.2/create-an-api-configure-service-mesh-CRD
