@@ -18,3 +18,7 @@ Further info: https://cloud.redhat.com/blog/openshift-4-2-declarative-dynamic-ui
 # Autocreate APIs by Using Your Connected Apps Credentials
 
 Link: https://docs.mulesoft.com/service-mesh/1.2/create-an-api-configure-service-mesh-CRD
+
+# K8s Ingress 
+
+Link: https://matthewpalmer.net/kubernetes-app-developer/articles/kubernetes-ingress-guide-nginx-example.html
