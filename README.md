@@ -22,3 +22,9 @@ Link: https://docs.mulesoft.com/service-mesh/1.2/create-an-api-configure-service
 # K8s Ingress 
 
 Link: https://matthewpalmer.net/kubernetes-app-developer/articles/kubernetes-ingress-guide-nginx-example.html
+
+From the this command's output, 
+
+kubectl api-resources --verbs=list --namespaced -o name | xargs -n 1 kubectl get --ignore-not-found --show-kind -n <namespace>
+
+we can see that ingresses, endpoints, service accounts, persistent volume claims, and config maps are amongst the returned resources. This is unlike the restrictive list from kubectl get all.
