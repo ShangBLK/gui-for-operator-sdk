@@ -30,10 +30,15 @@ kubectl api-resources --verbs=list --namespaced -o name | xargs -n 1 kubectl get
 we can see that ingresses, endpoints, service accounts, persistent volume claims, and config maps are amongst the returned resources. This is unlike the restrictive list from kubectl get all.
 
 
-#links
+# links
 https://docs.mulesoft.com/service-mesh/1.2/create-an-api-configure-service-mesh-CRD#create-api-autocreate
+
 https://www.hostinger.com/tutorials/tmux-beginners-guide-and-cheat-sheet/#:~:text=tmux%20is%20a%20terminal%20multiplexer,output%20at%20the%20same%20time.
+
 https://docs.mulesoft.com/service-mesh/1.2/download-and-install-service-mesh
+
 https://mastering-shiny.org/action-dynamic.html
+
 https://swagger.io/docs/specification/about/
+
 https://cloud.redhat.com/blog/openshift-4-2-declarative-dynamic-ui-for-your-operator
